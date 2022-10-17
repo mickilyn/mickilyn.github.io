@@ -37,7 +37,7 @@ header p {
 }
 
 header img {
-  max-width: 6em;
+  max-width: 12em;
   padding: 1em;
 }
 
@@ -72,8 +72,8 @@ nav ul {
 }
 
 .navigation a:hover {
-  color: #e7ddd1;
-  background-color: #5a5c59;
+  color: #ffffff;
+  background-color: #406870;
 }
 
 .responsive li {
