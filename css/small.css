@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Quicksand:wght@300&display=swap");
+html {
+  background-color: #ffffff;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  color: #444444;
+}
+
+h1,
+h2 {
+  font-family: "BIZ UDPMincho", serif;
+}
+
+#banner {
+  background-color: #133841;
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+    font-size: 20px;
+}
+header h1,
+header p {
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+header p {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+header img {
+  max-width: 6em;
+  padding: 1em;
+}
+
+nav {
+  background-color: #6e3838;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.navigation a {
+  display: block;
+  text-decoration: none;
+  font-family: "Bree Serif", serif;
+  font-size: 22px;
+  color: #ffffff;
+  padding: 1em;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.navigation a:hover {
+  color: #e7ddd1;
+  background-color: #5a5c59;
+}
+
+.responsive li {
+  display: block;
+}
+
+#hero_box {
+  position: relative;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+#hero_box img {
+  width: 100%;
+  border-bottom: 1px solid #444444;
+  margin-bottom: 1em;
+}
+
+#weather_summary {
+  background-color: #5f4d7b;
+  top: 25px;
+  left: 25px;
+  border-top: 1px solid #444444;
+  border-bottom: 1px solid #444444;
+}
+
+#ws {
+  padding-top: 1em;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+table {
+  width: 80%;
+  border: 1em;
+  padding-bottom: 2em;
+}
+
+table tr td {
+  height: 1.5em;
+  color: #ffffff;
+}
+
+td {
+  text-align: left;
+}
+
+td:first-child {
+  text-align: right;
+  font-weight: bold;
+}
+
+#town_box {
+  border-bottom: 1px solid #444444;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+#town {
+  padding-left: 2.25em;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 0.96em;
+  padding-bottom: 0.96em;
+}
+
+.forecast_head {
+  text-align: center;
+}
+
+#forecast_box {
+  display: flex;
+  flex-flow: wrap;
+  border-right: 1px solid #444444;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.forecast {
+  flex: 1 1 auto;
+  color: #ffffff;
+  background-color: #43707c;
+  border-bottom: 1px solid #444444;
+  text-align: center;
+  border-left: 1px solid #444444;
+}
+
+.forecast_day {
+  display: block;
+  color: #444444;
+  background-color: #a2e4e1;
+  border-top: 1px solid #444444;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.forecast_icon {
+  border-radius: 100px;
+  padding: 0.25rem;
+  max-width: 10vw;
+  height: auto;
+}
+
+.forecast_temp {
+  display: block;
+  padding: 0 5px 5px;
+  font-size: 0.9rem;
+}
+
+#article_box {
+  background-color: #5f4d7b;
+  color: #ffffff;
+  max-width: 960px;
+  margin: 1.2em auto 0;
+  overflow: hidden;
+  border-top: 1px solid #444444;
+  border-bottom: 1px solid #444444;
+}
+
+#article_content {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+#article_content a {
+  color: #ffffff;
+}
+
+#article_author {
+  font-size: 0.9em;
+  padding-left: 1em;
+}
+
+#article_img {
+  max-width: 100%;
+  height: auto;
+  border-top: 1px solid #444444;
+}
+
+#clear {
+  clear: both;
+}
+
+footer {
+  background-color: #6e3838;
+  color: #ffffff;
+  margin-top: 1.2em;
+  padding: 0;
+  padding-top: 0.2em;
+}
+
+footer a {
+  color: #444444;
+}
+
+footer h4 {
+  font-weight: bold;
+}
+
+#footer_grid_container {
+  line-height: 1em;
+}
+
+#contact {
+  padding: 1em;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#contact p {
+  padding-left: 1em;
+}
+
+.social {
+  padding: 0.5em;
+  max-width: 10vw;
+  height: auto;
+}
+
+.social:hover {
+  opacity: 0.75;
+}
+
+#footer_bar {
+  background-color: #133841;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 0.5em;
+  padding-bottom: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+#footer_bar a {
+  color: #ffffff;
+}
+
+#fg_box1 {
+  font-size: 0.9em;
+  color: #ffffff;
+}

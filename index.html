@@ -4,7 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
     <title>Traveling Lighthouse Church</title>
     <meta
       name="description"
@@ -15,18 +17,27 @@
 
   <body>
     <header>
-      <div id="hg_box1">
+      <div id="banner">
         <img
           id="sitelogo"
           src="images/sitelogo.png"
-          alt="Black outline of a church in front of a lighthouse"
+          alt="white sun with blue clouds"
         />
-        <section id="hg_box2">
-          <h1>Traveling <br />Lighthouse <br />Church</h1>
-          <p>Healing Ministry</p>
+        <section id="banner_text">
+          <h1>Traveling Lighthouse Church</h1>
+          <p>Corneillie Family Healing Ministry</p>
         </section>
       </div>
     </header>
+
+    <nav>
+      <ul class="navigation">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Learn More</a></li>
+        <li><a href="#">Recommended Media</a></li>
+      </ul>
+    </nav>
 
     <main></main>
 
@@ -35,6 +46,8 @@
         <div id="contact_box">
           <section id="contact">
             <h4>Contact Information</h4>
+            <p>info@travelinglighthouse.com</p>
+            <p>(555)555-5555</p>
             <a
               href="https://www.facebook.com/"
               target="_blank"
@@ -72,6 +85,36 @@
                 alt="twitter icon"
             /></a>
           </section>
+          <div class="contact_img">
+            <div class="gmap_canvas">
+              <iframe
+                width="268"
+                height="350"
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?q=Birmingham,%20Alabama&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+              ></iframe
+              ><a href="https://123movies-to.org">123 movies</a><br /><style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  height: 350px;
+                  width: 268px;
+                }</style
+              ><a href="https://www.embedgooglemap.net">embedding google map</a
+              ><style>
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  height: 350px;
+                  width: 268px;
+                }
+              </style>
+            </div>
+          </div>
         </div>
         <div id="footer_bar">
           <p>
@@ -81,6 +124,8 @@
         </div>
       </div>
     </footer>
+    <script src="js/message.js"></script>
+    <script src="js/hamburger.js"></script>
     <script src="../js/getFullYear.js"></script>
   </body>
 </html>
