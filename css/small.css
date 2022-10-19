@@ -185,10 +185,10 @@ td:first-child {
 }
 
 #article_box {
-  background-color: #5f4d7b;
+  background-color: #233A52;
   color: #ffffff;
   max-width: 960px;
-  margin: 1.2em auto 0;
+  margin: .5em auto 0;
   overflow: hidden;
   border-top: 1px solid #444444;
   border-bottom: 1px solid #444444;
@@ -222,7 +222,7 @@ td:first-child {
 footer {
   background-color: #6e3838;
   color: #ffffff;
-  margin-top: 1.2em;
+  margin-top: .5em;
   padding: 0;
   padding-top: 0.2em;
 }
